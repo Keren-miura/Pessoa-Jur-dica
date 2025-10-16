@@ -1,10 +1,15 @@
-public class pessoaJurídica {
+package PessoaJuridica;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		class PessoaJuridica {}
+public class PessoaJuridica {
+
+	 private String cnpj;
+		
+		public PessoaJuridica(String cnpj) {
+			this.cnpj = cnpj;
+			
 		}
-		    private String cnpj;
+		
+		   
 		 
 		    public String getCnpj() {
 		        return cnpj;
@@ -14,5 +19,7 @@ public class pessoaJurídica {
 		        this.cnpj = cnpj;
 		    }
 		}
+	
+
 	
 
